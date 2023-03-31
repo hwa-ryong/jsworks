@@ -1,0 +1,15 @@
+#item{
+    width: 500px;
+    margin: 0 auto;
+    position: relative; /* relative가 없으면 화면기준으로 배치가됨.*/
+}
+.btn_show{
+    position: absolute;
+    top : 260px;
+    left : 20px;
+}
+.text{
+    width: 400px;
+    display: none;
+    line-height: 1.5em;
+}

@@ -9,11 +9,11 @@
  }
  else{
 
- if(parseInt(customer) % parseInt(colNum) == 0) {
+ if((customer) % (colNum) == 0) {
      rowNum = customer / colNum;
  }
  else{
-     rowNum = parseInt(customer / colNum) + 1;
+     rowNum = (customer / colNum) + 1;
  }
 }
 
