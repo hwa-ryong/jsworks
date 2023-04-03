@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array객체 함수</title>
+    <title>Array 객체의 함수</title>
     <script>
         let nums = [1, 2, 3]
 
         //요소 추가
-        nums.push(4);
+        //nums[3] = 4;
+        nums.push(4); //맨 뒤에 추가
         document.write(nums + " <br>");
 
         //요소 삭제
-        nums.pop();
+        nums.pop(); //맨 뒤 삭제
         document.write(nums + " <br>");
 
         //특정한 위치 추가, 삭제 - splice()
@@ -21,6 +22,7 @@
         //splice(인덱스, 삭제할 개수)
         animal.splice(2, 1);
         document.write(animal + "<br>");
+        //splice(인덱스, 삭제할 개수(0), 추가 요소)
         animal.splice(1, 0, 'cow');
         document.write(animal + "<br>");
 

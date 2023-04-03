@@ -12,6 +12,7 @@
     <div class="menu">
         <ul>
             <li>
+                <!-- 바깥쪽이 쌍따옴표 "" 이면 안쪽은 홑따옴표'' -->
                 <a href="#" onclick="changeBg('green')">Green</a>
             </li>
             <li>
@@ -25,6 +26,8 @@
     <div class="box" id="rect"></div>
 
     <script>
+        //매개변수 - 파라미터
+        //function 함수이름(변수){}
         function changeBg(color){
            let rect = document.getElementById("rect")
            rect.style.backgroundColor = color;
