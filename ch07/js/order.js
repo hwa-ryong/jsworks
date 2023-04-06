@@ -13,11 +13,13 @@ let shippingTel = document.getElementById("shippingTel");
 let shippingAddr = document.getElementById("shippingAddr");
 
 function checkBox(){
+    //체크시 기본 정보 값을 배송 정보에 저장
     if(check.checked == true){
         shippingName.value = billingName.value;
         shippingTel.value = billingTel.value;
         shippingAddr.value = billingAddr.value;
     }
+    
     else{
         shippingName.value = "";
         shippingTel.value =  "";
